@@ -1,0 +1,32 @@
+.btn {
+    /*background-color: #f07900;*/
+    color: #f07900;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    color: yellow
+}
+.card {
+    border: none;
+}
+
+small {
+    font-size: 0.75rem;
+}
+
+#projects {
+    color: #f07900
+}
+
+@media only screen and (min-device-width: 372px) and (max-device-width: 915px) and (orientation: landscape) {
+    #no-display {
+        display: none!important;
+    }
+    #footer {
+        display: block!important;
+    }
+    .d-sm-none {
+        display: block!important;
+    }
+}
