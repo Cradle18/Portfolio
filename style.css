@@ -1,23 +1,16 @@
-.btn {
-    /*background-color: #f07900;*/
-    color: #f07900;
-    font-size: 1.5rem;
-}
-
-.btn:hover {
-    color: yellow
-}
-.card {
-    border: none;
-}
-
 small {
     font-size: 0.75rem;
 }
 
-#projects {
-    color: #f07900
+.bg-img {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./imgs/bg.jpg');
 }
+
+
 
 @media only screen and (min-device-width: 372px) and (max-device-width: 915px) and (orientation: landscape) {
     #no-display {
@@ -28,5 +21,11 @@ small {
     }
     .d-sm-none {
         display: block!important;
+    }
+    .bg-img {
+        display: none!important;
+    }
+    #card {
+        display:!important;
     }
 }
