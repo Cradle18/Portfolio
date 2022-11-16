@@ -1,0 +1,53 @@
+small {
+    font-size: 0.75rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+ 
+/*media quiries*/
+
+@media only screen and (max-device-width: 599px) {
+    .hero {
+        height: 100vh;
+    }
+
+    #about-skills {
+        margin-top: 210px!important;
+    }
+
+    #footer {
+        margin-top: 210px!important;
+        max-width: 100vw!important;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+    .hero {
+        height: 100vh;
+    }
+
+    #about-skills {
+        margin-top: 75px!important;
+    }
+
+    #footer {
+        margin-top: 75px!important;
+    }
+}
+@media only screen and (min-width: 900px) and (max-device-width: 1200px) {
+    .hero {
+        height: 100vh;
+    }
+
+    #about-skills {
+        margin-top: 210px!important;
+    }
+
+    #footer {
+        margin-top: 210px!important;
+        max-width: 100vw!important;
+    }
+}
