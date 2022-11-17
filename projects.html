@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="projects.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/04cf518a7d.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -23,7 +24,7 @@
         <div class="collapse navbar-collapse justify-content-end align-center" id="nav">
           <ul class="navbar-nav nav-tabs">
             <li class="nav-item">
-              <a class="nav-link">About</a>
+              <a class="nav-link" href="./index.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fa fa-download" href="./CV/TomPaulCV.docx">CV</a>
@@ -40,47 +41,93 @@
 
     <div class=" hero row align-content-center text-black gap-1 bg-primary bg-gradient d-flex justify-content-evenly" style="height: 500px;">
       <div class="col-4 mx-2">
-        <h1 class="display-1 text-black">Most Recent Project</h1>
-        <p class="lead mx-2 text-dark">See below for more!</p>
+        <h1 class="display-1 text-black d-md-block d-none">Most Recent Project</h1><!--Changes title on screen below medium-->
+        <h1 class="display-1 text-black d-md-none">My Projects</h1>
+        <p class="lead mx-2 text-dark d-md-block d-none">See below for more!</p>
       </div>
-      <div class="col-5">
+      <div class="col-5 d-md-block d-none">
         <div class="card" style="width: 25rem;">
-          <img class="card-img-top" src="./imgs/rpslz.JPG" alt="">
+          <img class="card-img-top" src="./Resources/imgs/project-imgs/rpslz.JPG" alt="">
           <div class="card-body">
             <h5 class="card-title">Rock, Paper, Scissors, Lizzard and Spock</h5>
             <h6 class="card-subtitle mb-2 text-muted">HTML, CSS and Javascript</h6>
-            <p class="card-text">Based on the Rock, Paper, Scissors creation from the big bang theory. Practice project for The Oden Project, face Sheldon and battle to win.</p>
-            <a href="#" class="card-link">Live site</a>
-            <a href="#" class="card-link">Github</a>
+            <p class="card-text">Based on the Rock, Paper, Scissors creation from the big bang theory. 
+              Practice project for The Oden Project, face Sheldon and battle to win.</p>
+            <a href="https://cradle18.github.io/rock-paper-scissors/" target="_blank" class="card-link">Live site</a>
+            <a href="https://github.com/Cradle18/rock-paper-scissors" target="_blank" class="card-link">Github</a>
           </div>
         </div>
       </div>        
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12 d-md-none"><!--Only show on medium screen and smaller-->
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./Resources/imgs/project-imgs/rpslz.JPG" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Rock, Paper, Scissors, Lizzard and Spock</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML, CSS and Javascript</h6>
+              <p class="card-text">Based on the Rock, Paper, Scissors creation from the big bang theory. 
+                Practice project for The Oden Project, face Sheldon and battle to win.</p>
+              <a href="https://cradle18.github.io/rock-paper-scissors/" target="_blank" class="card-link">Live site</a>
+              <a href="https://github.com/Cradle18/rock-paper-scissors" target="_blank" class="card-link">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-12 col-12">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./Resources/imgs/project-imgs/etch.JPG" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Etch-a-Sketch</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML, CSS and JavaScript</h6>
+              <p class="card-text">Poject i made as practice, this taught me how to manipulate the dom and create functions in Javascript,
+                to create a user friendly interface. This taught me alot about Javascript in general and also some more of the advanced uses.
+              </p>
+              <a href="https://cradle18.github.io/Etch-a-sketch/" target="_blank" class="card-link">Live Site</a>
+              <a href="https://github.com/Cradle18/Etch-a-sketch" target="_blank" class="card-link">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-12 col-12">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./Resources/imgs/project-imgs/calculator2.JPG" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML, CSS and Javascript</h6>
+              <p class="card-text">Another practice project, using basic Javascript, to create mathmatical functions and also using css,
+                to desing a easy to use interface.
+              </p>
+              <a href="https://cradle18.github.io/Calculator/" target="_blank" class="card-link">Live Site</a>
+              <a href="https://github.com/Cradle18/Calculator" target="_blank" class="card-link">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-12 col-12">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="./Resources/imgs/project-imgs/calculator2.JPG" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Placeholder</h5>
+              <h6 class="card-subtitle mb-2 text-muted">blah, blah and blah</h6>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ducimus hic suscipit dolor molestiae eligendi.</p>
+              <a href="" target="_blank" class="card-link">Live Site</a>
+              <a href="" target="_blank" class="card-link">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container-fluid mt-5 p-0" id="footer">
       <div class=" text-primary border-top border-white d-flex justify-content-between bg-dark">
-        <div class="d-flex">
-          <p class="lead"><i class="bi bi-facebook"></i></p>
-          <p class="lead"><i class="bi bi-twitter"></i></p>
-          <p class="lead"><i class="bi bi-github"></i></p>
-          <p class="lead"><i class="bi bi-linkedin"></i></p>
+        <div class="d-flex ms-1">
+          <a href="https://www.facebook.com/tomm.paul/" target="_blank"><p class="lead font"><i class="bi bi-facebook"></i></p></a>
+          <a href="https://twitter.com/Cradle181" target="_blank"><p class="lead font"><i class="bi bi-twitter"></i></p></a>
+          <a href="https://github.com/Cradle18" target="_blank"><p class="lead font"><i class="bi bi-github"></i></p></a>
+          <a href="https://www.linkedin.com/in/tom-paul-68b11919a/" target="_blank"><p class="lead font"><i class="bi bi-linkedin"></i></p></a>
         </div>
-        <div class="d-flex">
-          <p class="lead"><small>Email: t-paul@hotmail.co.uk <br> 07975827747</small></p>
-          <p><small class="mx-1 mt-2"></small></p>
+        <div class="d-flex" id="footer-two">
+          <p class="lead font me-1"><small>Email: t-paul@hotmail.co.uk <br> 07975827747</small></p>
         </div>
       </div>
     </div>
